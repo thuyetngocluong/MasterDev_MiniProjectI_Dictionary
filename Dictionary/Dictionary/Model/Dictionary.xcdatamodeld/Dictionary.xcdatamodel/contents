@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19H1030" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EnVi" representedClassName=".EnVi" syncable="YES">
+        <attribute name="html" attributeType="String" defaultValueString=""/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="mark" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="mean" attributeType="String" defaultValueString=""/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="pronounce" optional="YES" attributeType="String"/>
+        <attribute name="word" attributeType="String" defaultValueString=""/>
+    </entity>
+    <entity name="ViEn" representedClassName=".ViEn" syncable="YES">
+        <attribute name="html" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="mark" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="mean" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="pronounce" optional="YES" attributeType="String"/>
+        <attribute name="word" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="EnVi" positionX="-45" positionY="0" width="128" height="148"/>
+        <element name="ViEn" positionX="-18" positionY="90" width="128" height="148"/>
+    </elements>
+</model>
